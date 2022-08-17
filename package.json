@@ -1,0 +1,23 @@
+{
+  "name": "@jmrbdev/weather-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "devDependencies": {
+    "@astrojs/preact": "^1.0.1",
+    "@astrojs/tailwind": "^1.0.0",
+    "astro": "^1.0.1",
+    "preact": "^10.6.5"
+  },
+  "dependencies": {
+    "@nanostores/preact": "^0.2.1",
+    "dayjs": "^1.11.4",
+    "nanostores": "^0.6.0"
+  }
+}
